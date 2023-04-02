@@ -1,0 +1,414 @@
+
+
+
+ /************ Navbar Styling *************************************/
+
+.navbar {
+  min-height: 80px;
+  text-align:center;
+
+}
+
+.navbar-header{
+padding: 0px;
+  padding-left:45px;
+  height: 80px;
+  line-height: 80px;
+  font-size: x-large;
+  letter-spacing: 0px
+  text-color:warning;
+
+}
+
+
+
+.navbar-brand {
+  padding: 0 15px;
+  padding-right:27px;
+  height: 80px;
+  line-height: 80px;
+  font-size: x-large;
+  letter-spacing: 1px
+  text-color:warning;
+  
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+     padding-left:27px;
+     padding-right:27px;
+    font-size: medium;
+    letter-spacing: 1px;
+    margin-left: 20px;
+
+  }
+}
+
+.test{
+margin-left: 700px
+  }
+
+/************ Navbar Styling END *************************************/
+
+
+/************ Paragraphs Styling START *************************************/
+.a{ text-color:"rgb(0,0,0)"}
+
+.lead {
+padding-bottom: 15px;
+padding-left:35px;
+padding-right:35px;
+
+}
+
+.lead1  {
+padding-bottom: 40px;
+padding-left:35px;
+padding-right:35px;
+}
+
+.lead2  {
+padding-bottom: 30px;
+padding-left:120px;
+padding-right:120px;
+}
+
+.lead3  {
+padding-bottom: 30px;
+padding-left:200px;
+padding-right:150px;
+}
+
+.mapdescription{
+font-size: 15px;
+margin-bottom: 0px;
+margin-top: 10px;
+margin-left:20%;
+}
+
+
+
+/************ Paragraphs Styling END *************************************/
+
+
+
+
+/************ Page Headers Styling START *************************************/
+
+
+.page-header {
+padding-top: 120px;
+padding-bottom: 60px;
+}
+
+.page-header1{
+font-size: 25px;
+margin-bottom: -39px;
+
+
+  }
+
+
+.page-header2{
+
+margin-bottom: 800px;
+
+
+
+  }
+
+
+.page-header3{
+
+margin-bottom: 800px;
+
+
+
+  }
+
+
+.page-header4{
+
+margin-bottom: 50px;
+overflow: hidden;
+
+
+  }
+
+.page-header5{
+
+margin-bottom: 0px;
+
+
+
+  }
+
+
+/************ Page Headers Styling END *************************************/
+
+
+/************ Buttons Styling START*************************************/
+
+.btn-secondary {
+    padding-left:35px;
+    padding-right:35px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn1 {
+    
+    padding-left:35px;
+    padding-right:35px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 0px;
+    margin-left: 330px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 5px
+}
+
+.btn2 {
+    
+    padding-left:35px;
+    padding-right:35px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-left: 35px;
+    text-align: center;
+     margin-bottom: 40px;
+       margin-top: 5px;
+}
+
+.btn3 {
+
+margin-left: 4px;
+
+
+  }
+
+
+
+.btn4 {
+
+margin-left: 40px;
+
+
+  }
+
+
+.small {
+    
+    padding-left:35px;
+    padding-right:35px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 50px;
+    text-align: center;
+     margin-bottom: 0px;
+}
+
+.btn-default1{
+background-color:#5bc0de; 
+  }
+
+
+
+/************ Buttons Styling END*************************************/
+
+
+
+
+
+
+/************ Images Styling START*************************************/
+
+
+.img-fluid{
+
+margin-top: 10px;
+width:1200px; 
+height: auto;
+
+}
+
+
+.img{
+
+margin-top: 0px;
+width:20px; 
+height: 20px;
+
+}
+
+.analysis{
+margin-bottom: 600px;
+  }
+
+/************ Images Styling END*************************************/
+
+
+
+/************ HighCharts Styling START*************************************/
+
+
+.container1{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.higha{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.textWord_about {
+    background-color: white;
+    width: 300px;
+    border: 1px solid grey;
+    padding: 25px;
+    margin-top: 100px;
+  
+
+   
+}
+
+.textWord_about1 {
+    background-color: white;
+    width: 300px;
+    border: 1px solid black;
+    padding: 25px;
+    
+    
+
+   
+}
+
+.container2{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+
+
+.vacancy{
+  margin-left: 2000px;
+
+}
+
+
+
+.gra {
+    background-color: white;
+    width: 700px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 25px;
+
+   
+    
+}
+
+
+
+
+   
+    
+}
+
+
+@import "compass/css3";
+
+@include keyframes(bounce) {
+  0%, 20%, 50%, 80%, 100% {
+    @include transform(translateY(0));
+  }
+  40% {
+    @include transform(translateY(-30px));
+  }
+  60% {
+    @include transform(translateY(-15px));
+  }
+}
+
+.arrow1{
+  bottom: 0;
+  left: 50%;
+ top: 20%;
+  margin-top: 0px;
+
+}
+
+
+
+.arrow {
+  top: 10%;
+  margin-left:48%;
+
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  -moz-animation-name: bounce;
+  -o-animation-name: bounce;
+  animation-name: bounce;
+}
+.animated{-webkit-animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-ms-animation-fill-mode:both;
+-o-animation-fill-mode:both;
+
+            animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+animation-fill-mode:both;
+-webkit-animation-duration:3s;
+-moz-animation-duration:3s;
+-ms-animation-duration:3s;
+-o-animation-duration:3s;
+animation-duration:3s;
+}
+
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 40% {-webkit-transform: translateY(-15px);}
+  60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+  40% {-moz-transform: translateY(-15px);}
+  60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+  40% {-o-transform: translateY(-15px);}
+  60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-15px);}
+  60% {transform: translateY(-15px);}
+}
+
+
+
+
+
+
+
